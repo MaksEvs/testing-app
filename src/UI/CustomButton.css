@@ -1,0 +1,16 @@
+.custom-button {
+	margin-top: 20px;
+	width: 130px;
+	height: 40px;
+	border-radius: 40px;
+	background-color: #28a745;
+	border: none;
+	color: black;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.custom-button.disabled {
+	background-color: rgba(0, 0, 0, 0.2);
+	cursor: not-allowed;
+}

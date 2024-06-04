@@ -1,0 +1,22 @@
+input {
+	height: 40px;
+	width: 500px;
+	border-radius: 10px;
+	border-color: #28a745;
+	color: #28a745;
+	font-size: 30px;
+}
+
+.short-answer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+
+.short-answer p {
+	margin: 0;
+}

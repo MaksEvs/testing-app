@@ -1,0 +1,35 @@
+.progress-bar {
+	display: flex;
+	height: 20px;
+	background-color: #e0e0e0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.progress-bar-segment {
+	flex: 1;
+	background-color: #ccc;
+	transition: background-color 0.3s;
+	position: relative;
+}
+
+.progress-bar-segment:not(:last-child)::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background-color: #e0e0e0;
+}
+
+.progress-bar-segment.completed {
+	background-color: #7d50f9;
+}
+
+.progress-bar-segment.current {
+	background-color: #28a745;
+}
+
+.progress-bar-segment.remaining {
+	background-color: #ccc;
+}

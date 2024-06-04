@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("./fonts/Roboto-Regular.ttf");
+}
+
+body {
+	font-family: "Roboto";
+	max-width: 1000px;
+	margin: 0 auto;
+}
